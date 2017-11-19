@@ -80,7 +80,7 @@ print('Created entry for ford...')
 
 car = Entity()
 car.PartitionKey = 'cardealer'
-car.RowKey = '001'
+car.RowKey = '002'
 car.make = 'Honda'
 car.model = 'Civic'
 car.year = 2011
@@ -91,7 +91,7 @@ print('Created entry for honda...')
 
 car = Entity()
 car.PartitionKey = 'cardealer'
-car.RowKey = '001'
+car.RowKey = '003'
 car.make = 'Toyota'
 car.model = 'Camry'
 car.year = 2015
@@ -117,7 +117,7 @@ time.sleep(1)
 
 coffee = Entity()
 coffee.PartitionKey = 'coffeemenu'
-coffee.RowKey = '005'
+coffee.RowKey = '006'
 coffee.brand = 'Starbucks'
 coffee.flavor = 'Roasted'
 coffee.size = 'Small'
@@ -128,7 +128,7 @@ time.sleep(1)
 
 coffee = Entity()
 coffee.PartitionKey = 'coffeemenu' 
-coffee.RowKey = '005'
+coffee.RowKey = '007'
 coffee.brand = 'McDonals'
 coffee.flavor = 'Sweet Pumpkin'
 coffee.size = 'Large'
